@@ -12,6 +12,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'mhinz/vim-signify'
 Plugin 'python-mode/python-mode'
 Plugin 'easymotion/vim-easymotion'
+Plugin 'vim-syntastic/syntastic'
 
 call vundle#end()
 
@@ -28,12 +29,13 @@ set splitright
 set splitbelow
 set hlsearch
 let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_clear_cache_on_exit = 0
 
 let &t_SI = "\<Esc>[6 q"
 let &t_SR = "\<Esc>[4 q"
 let &t_EI = "\<Esc>[2 q"
 
-set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*.pyc,*/static-build/*,*/static/*,*/build/*
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*.pyc,*/static-build/*,*/static/*,*/build/*,*/.virtualenv/*,*/node_modules/*,*/.*/*
 
 let g:pymode_options = 0
 let g:pymode_lint = 0
