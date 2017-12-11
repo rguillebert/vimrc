@@ -38,7 +38,7 @@ let &t_SI = "\<Esc>[6 q"
 let &t_SR = "\<Esc>[4 q"
 let &t_EI = "\<Esc>[2 q"
 
-set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*.pyc,*/static-build/*,*/static/*,*/build/*,*/.virtualenv/*,*/node_modules/*,*/.*/*
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*.pyc,*/static-build/*,*/static/*,*/build/*,*/.virtualenv/*,*/node_modules/*
 
 let g:pymode_options = 0
 let g:pymode_lint = 0
