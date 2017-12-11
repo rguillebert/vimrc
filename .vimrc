@@ -14,6 +14,8 @@ Plugin 'python-mode/python-mode'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'rust-lang/rust.vim'
+Plugin 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
+Plugin 'junegunn/fzf.vim'
 
 call vundle#end()
 
