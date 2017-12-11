@@ -13,6 +13,7 @@ Plugin 'mhinz/vim-signify'
 Plugin 'python-mode/python-mode'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'vim-syntastic/syntastic'
+Plugin 'rust-lang/rust.vim'
 
 call vundle#end()
 
