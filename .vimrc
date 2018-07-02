@@ -16,11 +16,13 @@ Plugin 'vim-syntastic/syntastic'
 Plugin 'rust-lang/rust.vim'
 Plugin 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
 Plugin 'junegunn/fzf.vim'
+Plugin 'fatih/vim-go'
 
 call vundle#end()
 
 
 filetype plugin indent on
+autocmd BufNewFile,BufRead *.go setlocal noexpandtab tabstop=2 shiftwidth=2
 
 colorscheme xoria256
 
